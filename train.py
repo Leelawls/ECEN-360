@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 class RNNTrainer:
-    def __init__(self, model, lr=0.001, batch_size=32, max_grad_norm=1.0, device=None):
+    def __init__(self, model, lr=0.01, batch_size=32, max_grad_norm=1.0, device=None):
         self.model = model
         self.lr = lr
         self.batch_size = batch_size
